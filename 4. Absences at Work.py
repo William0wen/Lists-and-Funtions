@@ -39,9 +39,3 @@ above_avg_names.sort()
 print("\nPeople whose absences was above average:")
 for name in above_avg_names:
     print(f"{name.title()}: {absences[names.index(name)]} days")
-
-
-
-
-
-
